@@ -1,0 +1,9 @@
+# 运行依赖（按需安装：只有图片压缩只需要 Pillow）
+Pillow>=10.0
+
+# PDF 压缩与预览（二选一或都装：pikepdf 走结构保留，pypdfium2 走栅格化/预览）
+pikepdf>=8.0
+pypdfium2>=4.0
+
+# 拖拽文件进窗口（可选，不装也能正常用）
+tkinterdnd2>=0.4
